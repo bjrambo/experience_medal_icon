@@ -7,9 +7,6 @@ function experienceLevelIconTrans($matches)
 {	
 	$member_srl = $matches[3];
 	if($member_srl < 1) return $matches[0];
-
-
-
 	$orig_text = preg_replace('/' . preg_quote($matches[5], '/') . '<\/' . $matches[6] . '>$/', '', $matches[0]);
 	if(!isset($GLOBALS['_experienceLevelIcon'][$member_srl]))
 	{
