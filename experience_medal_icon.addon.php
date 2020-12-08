@@ -14,7 +14,7 @@
 
 	require_once(_XE_PATH_ . 'addons/experience_medal_icon/experience_medal_icon.lib.php');
 	
-	$temp_output = preg_replace_callback('!<(div|span|a)([^\>]*)member_([0-9\-]+)([^\>]*)>(.*?)\<\/(div|span|a)\>!is', 'experienceLevelIconTrans', $output);
+	$temp_output = preg_replace_callback('!<(div|span|a)([^\>]*)member_([0-9\-]+)([^\>]*)>(.*?)\<\/(div|span|a)\>!is', 'experienceMedalIconTrans', $output);
 	if($temp_output)
 	{
 		$output = $temp_output;
