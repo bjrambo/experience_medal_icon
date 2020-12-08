@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon version="0.2">
+    <title xml:lang="ko">경험치 레벨 아이콘 표시 애드온</title>
+    <description xml:lang="ko">
+        사용자 이름 앞에 레벨 아이콘을 표시합니다. 경험치 모듈이 설치되어있어야 합니다.
+    </description>
+    <version>0.1</version>
+    <date>2015-09-27</date>
+
+    <author email_address="webmaster@conory.com" link="http://www.conory.com">
+        <name xml:lang="ko">CONORY</name>
+    </author>
+</addon>
